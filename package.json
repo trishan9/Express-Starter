@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "express-starter-trishan9",
   "version": "1.0.0",
   "main": "dist/index.ts",
   "author": "Trishan Wagle",
