@@ -1,53 +1,43 @@
-# Express App Starter
+This is Express.js project bootstrapped with [`create-express-app-trishan`](https://github.com/trishan9/create-express-app-trishan).
 
-How to use this template:
+## Getting Started
 
-```sh
-npx create-express-app-trishan --directory / -d my-project-name
-```
+First, run the development server:
 
-Included Features:
-
-- path aliases ("src/ -> @/")
-- [helmet](https://www.npmjs.com/package/helmet)
-  - Helmet helps you secure your Express apps by setting various HTTP headers. It's not a silver bullet, but it can help!
-- [dotenv](https://www.npmjs.com/package/dotenv)
-  - Dotenv is a zero-dependency module that loads environment variables from a `.env` file into `process.env`
-- [cors](https://www.npmjs.com/package/cors)
-  - CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
-- [prisma](https://www.npmjs.com/package/prisma)
-  - Included Prisma ORM Setup with PostgreSQL as default database, you can change it according to your need.
-- Authentication Setup Included with [jwt](https://jwt.io/),[bcrypt](https://www.npmjs.com/package/bcrypt) for hashing passwords, auth middleware as well.
-- File Upload Middleware Setup with [multer](https://www.npmjs.com/package/multer) and [cloudinary](https://cloudinary.com/documentation/node_integration)
-
-Upcoming Features:
-
-- option to select between JavaScript & TypeScript
-- option to select between Prisma, TypeORM, DrizzleORM, Mongoose
-- Loggers
-- Efficient Express Validators
-- Efficient Error Validations
-
-## Setup
-
-```
-npm install
-```
-
-## Development
-
-```
+```bash
 npm run dev
+# or
+yarn run dev
+# or
+pnpm run dev
+# or
+bun run dev
+```
+
+Open [http://localhost:3000/api](http://localhost:3000/api) with your browser or postman or insomnia to see the result.
+
+You can start editing by modifying any files. The server auto-updates as you edit the file using nodemon.
+
+## Start
+
+```bash
+npm run start
+# or
+yarn run start
+# or
+pnpm run start
+# or
+bun run start
 ```
 
 ## Build
 
-```
+```bash
 npm run build
-```
-
-## Start
-
-```
-npm run start
+# or
+yarn run build
+# or
+pnpm run build
+# or
+bun run build
 ```
